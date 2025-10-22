@@ -1,0 +1,12 @@
+Case-oppgave: Oppskrifts-hub
+
+"Jeg vil ha en app hvor jeg kan lagre oppskrifter.
+Oppskriftene skal ha tittel, bildet, idgredienser, fremgangsmåte, 
+kategori og ca tid.
+
+- Jeg vil kunne logge meg inn og redigere, 
+legge til eller fjerne oppskrifter. 
+- Jeg vil også at det skal være mulig for andre å se på oppskriftene,
+men ikke logge seg inn (kun se på det som eksisterer allerede). 
+- Jeg vil kunne sortere oppskriftene etter kategorier og tid, og 
+jeg vil kunne søke på en oppskrift med tittel. "
