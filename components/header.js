@@ -1,14 +1,16 @@
 function header() {
     return /*html*/`
-        <h1>Recipedia</h1>
-        <div>
-            <input
-            type="text"
-            placeholder="Søk">
-        </div>
-        <div>
-            ${addRecipeButton()}
-            <button onclick="changePage('mainPage')">Hjem</button>
+        <div class="headerDiv">
+            <h1>Recipedia</h1>
+            <div>
+                <input
+                type="text"
+                placeholder="Søk">
+            </div>
+            <div>
+                ${addRecipeButton()}
+                <button onclick="changePage('mainPage')">Hjem</button>
+            </div>
         </div>
     `;
 }
