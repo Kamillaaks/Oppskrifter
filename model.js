@@ -1,7 +1,8 @@
 const model = {
     app: {
-        currentPage: "loginPage",
+        currentPage: "mainPage",
         currentUser: "admin",
+        selectedRecipe: 0,
 
         page: [
             "loginPage",
@@ -53,16 +54,25 @@ const model = {
                 id: 2, name: "Frokost",
             },
             {
-                id: 3, name: "Enkel",
+                id: 3, name: "Dessert",
             },
             {
-                id: 4, name: "Middels"
+                id: 4, name: "Rask",
             },
             {
-                id: 5, name: "Vanskelig",
+                id: 5, name: "Kos",
+            }
+        ],
+
+        difficulty: [
+            {
+                id: 0, name: "Enkel",
             },
             {
-                id: 6, name: "Rask",
+                id: 1, name: "Middels"
+            },
+            {
+                id: 2, name: "Vanskelig",
             },
         ],
 
@@ -102,44 +112,44 @@ const model = {
             },
         ],
 
-        RecipeList: [
+        recipeList: [
             {
                 id: 0,
-                userId: 0, /* Trengs denne egentlig? */
                 title: "Greske kjøttboller",
                 categoryId: [0, 3],
-                timeUsedId: 4, /* Er dette rett? */
-                image: "imgLink",
+                difficultyId: 3,
+                timeUsedId: 4, 
+                image: "mat.jpg",
                 recipe: "Lang tekst her",
                 method: "Enda lengre tekst her", 
             },
              {
                 id: 1,
-                userId: 0,
                 title: "Lun biffsalat",
                 categoryId: [0, 5],
+                difficultyId: 3,
                 timeUsedId: 11,
-                image: "imgLink",
+                image: "mat.jpg",
                 recipe: "Lang tekst her",
                 method: "Enda lengre tekst her", 
             },
              {
                 id: 2,
-                userId: 0,
                 title: "Banh mi bowl",
                 categoryId: [0, 3],
+                difficultyId: 3,
                 timeUsedId: 0,
-                image: "imgLink",
+                image: "mat.jpg",
                 recipe: "Lang tekst her",
                 method: "Enda lengre tekst her", 
             },
              {
-                id: 0,
-                userId: 0,
+                id: 3,
                 title: "Thai biffruller",
                 categoryId: [0, 4],
+                difficultyId: 3,
                 timeUsedId: 7,
-                image: "imgLink",
+                image: "mat.jpg",
                 recipe: "Lang tekst her",
                 method: "Enda lengre tekst her", 
             },
